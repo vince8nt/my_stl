@@ -1,0 +1,30 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/vince/Repos/my_stl/build",
+	"dir-cur-src" : "/home/vince/Repos/my_stl",
+	"dir-top-bld" : "/home/vince/Repos/my_stl/build",
+	"dir-top-src" : "/home/vince/Repos/my_stl",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"/home/vince/Repos/my_stl/build/CMakeFiles/cvector_module.dir"
+	],
+	"module-dir" : "/home/vince/Repos/my_stl/build/CMakeFiles/cvector_test.dir",
+	"sources" : 
+	{
+		"CMakeFiles/cvector_test.dir/test_cvector.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/vince/Repos/my_stl/test_cvector.cpp"
+		}
+	}
+}

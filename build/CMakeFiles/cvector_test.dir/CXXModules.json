@@ -1,0 +1,12 @@
+{
+	"modules" : {},
+	"references" : 
+	{
+		"cvector" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/cvector_module.dir/cvector.pcm"
+		}
+	},
+	"usages" : {}
+}

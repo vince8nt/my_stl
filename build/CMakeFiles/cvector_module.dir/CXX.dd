@@ -1,0 +1,4 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/cvector_module.dir/cvector_module.cpp.o | CMakeFiles/cvector_module.dir/cvector.pcm: dyndep
+  restat = 1
+

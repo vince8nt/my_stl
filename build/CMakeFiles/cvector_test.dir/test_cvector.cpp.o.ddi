@@ -1,0 +1,14 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/cvector_test.dir/test_cvector.cpp.o",
+      "requires": [
+        {
+          "logical-name": "cvector"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

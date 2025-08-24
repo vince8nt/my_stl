@@ -1,6 +1,17 @@
 module;
 
-import std;
+// Traditional includes in global module fragment
+#include <type_traits>
+#include <memory>
+#include <cstdlib>
+#include <cstring>  // for memcpy
+#include <iterator>
+#include <bit>
+#include <new>
+#include <stdexcept>
+#include <iostream>
+#include <algorithm>
+#include <vector>
 
 export module cvector;
 

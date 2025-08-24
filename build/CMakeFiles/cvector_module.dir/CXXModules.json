@@ -1,0 +1,19 @@
+{
+	"modules" : 
+	{
+		"cvector" : 
+		{
+			"bmi" : "/home/vince/Repos/my_stl/build/CMakeFiles/cvector_module.dir/cvector.pcm",
+			"is-private" : false
+		}
+	},
+	"references" : 
+	{
+		"cvector" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/cvector_module.dir/cvector.pcm"
+		}
+	},
+	"usages" : {}
+}

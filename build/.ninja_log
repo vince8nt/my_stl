@@ -1,0 +1,14 @@
+# ninja log v6
+1	44	1756029890472696420	CMakeFiles/cvector_test.dir/test_cvector.cpp.o.ddi	62f3a940a8e54f17
+0	53	1756029890472696420	CMakeFiles/cvector_module.dir/cvector_module.cpp.o.ddi	94bc6e39b12ea526
+53	61	1756029890528696904	CMakeFiles/cvector_module.dir/CXX.dd	679cb1e5958ef09
+53	61	1756029890528696904	/home/vince/Repos/my_stl/build/CMakeFiles/cvector_module.dir/CXXModules.json	679cb1e5958ef09
+53	61	1756029890528696904	CMakeFiles/cvector_module.dir/cvector_module.cpp.o.modmap	679cb1e5958ef09
+61	70	1756029890536696973	CMakeFiles/cvector_test.dir/CXX.dd	e63602aeb2297fd0
+61	70	1756029890536696973	/home/vince/Repos/my_stl/build/CMakeFiles/cvector_test.dir/CXXModules.json	e63602aeb2297fd0
+61	70	1756029890536696973	CMakeFiles/cvector_test.dir/test_cvector.cpp.o.modmap	e63602aeb2297fd0
+61	1348	1756029891812708015	CMakeFiles/cvector_module.dir/cvector_module.cpp.o	3626aacd011b2933
+61	1348	1756029891812708015	CMakeFiles/cvector_module.dir/cvector.pcm	3626aacd011b2933
+1348	1374	1756029891816708050	libcvector_module.a	ee8f1c09d7e140a4
+1349	2328	1756029891820708084	CMakeFiles/cvector_test.dir/test_cvector.cpp.o	aadd67801f1f17a8
+2328	2376	1756029892796716531	bin/cvector_test	8058a6fdeec75096

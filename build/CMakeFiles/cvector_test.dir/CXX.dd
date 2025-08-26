@@ -1,3 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/cvector_test.dir/test_cvector.cpp.o: dyndep | CMakeFiles/cvector_module.dir/cvector.pcm
-

@@ -65,6 +65,7 @@ class deque {
                 front_offset_ += node_size_;
                 node_index_offset_ += node_size_;
             }
+            data_.shrink_to_fit();
         }
 
 

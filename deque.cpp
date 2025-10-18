@@ -65,24 +65,22 @@ class deque {
                 front_offset_ += node_size_;
                 node_index_offset_ += node_size_;
             }
-            data_.shrink_to_fit();
         }
 
 
         // push to back, only allocate new nodes if necessary
         void push_back(const T& value) {
-            back_offset_++;
-            size_t data_index = back_offset_ / node_size_;
-            uint8_t node_offset = back_offset_ % node_size_;
+            size_t data_index = (front_offset_ + size_) / node_size_;
+            uint8_t node_offset = (front_offset_ + size_) % node_size_;
             if (data_index >= data_.size()) { // no node allocated for this index
                 if (front_offset_ >= node_size_) { // unused node at the front can be used
                     auto node_ptr = data_.front();
                     data_.pop_front();
+                    node_index_offset_ += node_size_;
+                    node_ptr->base_index = node_index_offset_ + data_index_;
+                    
                     data_.push_back(node_ptr);
                     front_offset_ -= node_size_;
-                    back_offset_ -= node_size_;
-                    data_index--;
-                    data_[data_index] = node_ptr;
                 } else { // no unused node at the front, so we need to allocate a new node
                     data_.push_back(new node());
                 }
